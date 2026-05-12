@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url('../fonts/opensans-italic-variablefont_wdth,wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

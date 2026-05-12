@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<title> A la Croisée des Mondes - Reservations</title>
+		<link rel="icon" type="image/png" href="images/logo.png" sizes="32x32">
+		<link rel="stylesheet" href="styles/index.css">
+		<link rel="stylesheet" href="styles/reserv.css">
+		<link rel="stylesheet" href="styles/header.css">
+		<link rel="stylesheet" href="styles/footer.css">
+	</head>
+	<body>
+	<header>
+	<div>
+		<a href="menu.html"><img src="images/logo.png" alt="Logo de l'agence"></a>
+		<h3>A la Croisée des Mondes</h3>
+		<h1> RESERVATIONS </h1>
+	</div>
+		
+		<nav>
+			<a href="menu.html" class="btn-nav">Menu</a>
+			<a href="voyage.html" class="btn-nav">Nos voyages</a>
+			<a href="a_propos_de_nous.html" class="btn-nav">A propos</a>
+			<a href="reservation.html" class="btn-nav"> Créer votre itinéraire </a>
+		</nav>
+		
+	</header>
+	<main>
+	    <section class="container" >
+		    <div class="boite">
+			    <img src="./images/guide.jpg" alt="Portrait de Sidien Gerham" class="img-wrap">
+				<h3> Sidien Gerham </h3>
+				<p class="poste" > Guide </p>
+			    <p> Experte des mondes, saura vous personnaliser votre voyage comme il se doit</p>
+			</div>
+			<div class="boite" >
+			    <img src="./images/chauffeur.jpg" alt="Portrait de Bastonie Herce" class="img-wrap">
+				<h3> Bastonie Herce </h3>
+				<p class="poste" > Chauffeur </p>
+			    <p> Connaît chaque monde et chaque univers sur  le bout des doigts</p>
+			</div>
+			<div class="boite" >
+			    <img src="./images/directeur.jpg" alt="Portrait de Bidonien Gare" class="img-wrap">
+				<h3> Bidonien Gare </h3>
+				<p class="poste" > Directeur </p>
+			    <p> Passionnée des univers fantastiques charchant à faire découvrir sa passion</p>
+			</div>
+		</section>
+        <div class="formulaire">
+		<section class="reservation-form-section">
+            <h2>Réservez votre voyage en un clic </h2>
+            <form class="reservation-form">
+            <div class="form-row">
+                <label for="voyage">Voyage souhaité</label>
+                <select id="voyage" name="voyage" required>
+                    <option value="">-- Choisissez un voyage --</option>
+                    <option value="Pandora">Pandora</option>
+                    <option value="Asgard">Asgard</option>
+                    <option value="Arcane">Arcane</option>
+                    <option value="Carterasse">Carterasse</option>
+                    <option value="Century">Century</option>
+                    <option value="Jyang">Jyang</option>
+                    <option value="Globinous">Globinous</option>
+                    <option value="Moon">Moon</option>
+                    <option value="Poudlard">Poudlard</option>
+                </select>
+            </div>
+            <div class="form-row">
+                <label for="guide">Guide / pilote</label>
+                <select id="guide" name="guide" required>
+                    <option value="">-- Choisissez un guide --</option>
+                    <option value="lea">Sidien Gerham</option>
+                    <option value="karim">Bastonie Herce</option>
+                    <option value="sofia">Bidonien Gare</option>
+                </select>
+            </div>
+            <div class="form-row">
+                <label for="date">Date de départ</label>
+                <input type="date" id="date" name="date" required>
+            </div>
+            <div class="form-row">
+                <label for="participants">Nombre de participants</label>
+                <input type="number" id="participants" name="participants" min="1" value="2" max="10">
+            </div>
+            <div class="form-row">
+                <label for="message">Informations complémentaires</label>
+                <textarea id="message" name="message" rows="4" placeholder="Allergies, préférences, questions…"></textarea>
+            </div>
+            <button type="submit" class="btn-primary">Envoyer la réservation</button>
+		</form>
+		</section>
+        </div>
+        <section class="agency-info">
+            <div class="formulaire">
+            <h2>Nous trouver</h2>
+            
+            <div class="map-wrapper">
+            <iframe title="Carte OpenStreetMap" src="https://www.openstreetmap.org/export/embed.html?bbox=2.334%2C48.858%2C2.336%2C48.86&amp;layer=mapnik&amp;marker=48.859%2C2.335">
+            </iframe>
+            <a class="map-link" href="https://www.openstreetmap.org/?mlat=48.859&amp;mlon=2.335#map=18/48.859/2.335" target="_blank" rel="noopener noreferrer">
+                Ouvrir la carte en plein écran
+            </a>
+            </div>
+            </div>
+        </section>
+	</main>
+	<footer class="footer">
+	    <div class="footer-top">
+	        <div class="footer-colonne">
+			    <h4>Newsletter</h4>
+				<form class="newsletter">
+				    <input type="email" placeholder="Votre adresse mail">
+					<button type="submit">envoyer</button>
+				</form>
+			</div>
+		    <div class="footer-colonne">
+			    <h4> Informations pratiques </h4>
+				    <ul>
+					    
+						<li><a href="S106-Rapport.pdf"> Rapport format pdf</a></li>
+						<li><a href="a_propos_de_nous.html"> A propos de nous</a></li>
+					</ul>
+		    </div>
+			<div class="footer-colonne">
+			    <h4>Contactez nous</h4>
+				<p> 12 rue des Explorateurs <br> 75000 Paris, France</p>
+				<p> +33 1 23 45 67 89 </p>
+				<p> a_la_croisee_des_<br>mondes@gmail.com</p>
+			</div>
+		</div>
+		<div class="footer-bottom">
+		    <p> Bastien HAM <br> Sidonie Gerce</p>
+			<a href="https://www.universite-paris-saclay.fr/"><img src="images/Logo_iut.jpg" alt="Logo IUT"></a>
+		</div>
+	</footer>
+	</body>
+</html>

@@ -1,0 +1,76 @@
+@charset "utf-8";
+header{
+  font-family: 'OpenSans', sans-serif;
+	padding:2rem;
+	background-image : linear-gradient(to top, hsl(0, 0%, 0%), #00000000 40%),url("../images/bannie.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	min-height:auto;
+}
+header p {
+	font-size:5rem;
+	background-color:#d1b4218e;
+}
+header a{
+	width:80px;
+}
+header h3{
+  color : white;
+  margin-left:30px ;
+  text-align: center;
+}
+header div{
+	display: flex;
+	position:relative;
+	align-items:center;
+    flex-wrap: wrap;
+}
+header h1{
+	position:absolute;
+	left:50%;
+	transform: translateX(-50%);
+	color:white;	
+	text-align:center;
+    font-size:3rem;
+}
+header img{
+  display: flex;
+  width:5%;
+  min-width:80px;
+  height:5%;
+  justify-content: space-around
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  gap: 1rem;
+  padding: 1rem 0;
+  flex-wrap: wrap;
+}
+
+.btn-nav {
+  background: #111C57;        /* mauve */
+  color: #CF404F;
+  text-align:center;
+  padding: 0.6rem 1.4rem;
+  margin-top:20px;
+  border-radius: 12px;
+  font-weight: 600;
+  min-width:10rem;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.btn-nav:hover {
+  background: #1A2DBD;        /* mauve un peu plus foncé */
+  transform: translateY(-2px);
+}
+
+@media (max-width: 1050px) {
+  header h1 {
+    position: static;
+    transform: none;
+    margin-left: 10px;
+  }
+}

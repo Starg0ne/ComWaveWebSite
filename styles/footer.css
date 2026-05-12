@@ -1,0 +1,75 @@
+@charset "utf-8";
+
+
+.footer{
+	font-family: 'GOpenSans', sans-serif;
+	color : #fff;
+	padding : 40px 60px 20px;
+	font-size : 19px;
+	background-image : linear-gradient(to bottom, hsl(0, 0%, 0%), #00000000 40%),url("../images/bannie.jpg");
+	background-size : cover;
+	background-position : center;
+}
+.footer-top{
+	display : flex;
+	flex-wrap : wrap;
+	justify-content : space-between;
+	gap : 40px;
+}
+.footer-colonne{
+    background-color: rgba(136, 170, 221, 0.699);
+    border-radius: 20%;
+    margin: 4px;
+}
+.footer-top h4{
+	font-weight: bold;
+	color : #b9b6ab;
+}
+.footer-colonne .newsletter{
+    margin: 8px;
+}
+.footer-colonne h4 {
+	margin : 10px;
+	font-size : 16px;
+    text-align: center;
+}
+.footer-colonne ul {
+	list-style : none;
+	margin : 0;
+	padding : 0;
+}
+.footer-colonne li,.footer-colonne p {
+	margin : 6px;
+    text-align: center;
+}
+.footer-colonne a {
+	text-decoration : none;
+	color : #fff;
+}
+.newsletter input{
+	padding : 8px;
+	border : none;
+	outline : none;
+	border-radius : 0 4px 4px 0;
+	background : hsla(41, 19%, 84%, 0.884);
+	cursor: pointer;
+}
+.footer-bottom {
+	text-align : left;
+	margin-top : 30px;
+	font-size :18px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+@media (max-width : 800px){
+	.footer{
+		padding : 30px 20px;
+	}
+	.footer-top {
+		flex-direction : column;
+		align-items : flex-start;
+	}
+}
